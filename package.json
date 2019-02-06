@@ -25,5 +25,9 @@
   },
   "engine": {
     "node": "~10.12"
+  },
+  "repository": {
+    "url": "git@github.com:bjacobel/slack-message-renderer.git",
+    "type": "git"
   }
 }
