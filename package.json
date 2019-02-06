@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "tslint -t stylish --fix -p .",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "tsc"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",

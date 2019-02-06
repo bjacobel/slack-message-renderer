@@ -28,6 +28,10 @@ export default async (
   } catch (e) {
     return Promise.reject(e);
   } finally {
-    await browser!.close();
+    try {
+      await browser!.close();
+    } catch (e) {
+      /* catch and ignore */
+    }
   }
 };
