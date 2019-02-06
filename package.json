@@ -1,0 +1,29 @@
+{
+  "name": "slack-message-renderer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -t stylish --fix -p .",
+    "build": "tsc"
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "puppeteer": "^1.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "~10.12",
+    "@types/puppeteer": "^1.12.1",
+    "prettier": "^1.15.3",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.2.2"
+  },
+  "engine": {
+    "node": "~10.12"
+  }
+}
